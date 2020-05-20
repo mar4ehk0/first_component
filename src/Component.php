@@ -4,7 +4,7 @@ namespace Marchenko;
 
 class Component
 {
-	protected function render($arg) {
+	public function render($arg) {
 		echo "Hello $arg";
 	}
 	 
